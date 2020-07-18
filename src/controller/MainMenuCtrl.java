@@ -14,4 +14,6 @@ public class MainMenuCtrl {
 
     }
 
+    public void exit_application(ActionEvent actionEvent) { //TODO
+    }
 }
