@@ -6,6 +6,7 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 
+/** Creates a desktop application that manages part and product inventory */
 public class Main extends Application {
 
     @Override
@@ -18,6 +19,6 @@ public class Main extends Application {
 
 
     public static void main(String[] args) {
-        launch(args);
+        Application.launch(args);
     }
 }

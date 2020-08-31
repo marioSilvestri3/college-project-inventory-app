@@ -64,8 +64,9 @@
                 <RowConstraints prefHeight="40.0" vgrow="SOMETIMES" />
                   <RowConstraints prefHeight="40.0" vgrow="SOMETIMES" />
                   <RowConstraints prefHeight="40.0" vgrow="SOMETIMES" />
-                  <RowConstraints minHeight="10.0" prefHeight="40.0" vgrow="SOMETIMES" />
-                  <RowConstraints minHeight="10.0" prefHeight="40.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="40.0" prefHeight="40.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="40.0" prefHeight="40.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="40.0" prefHeight="40.0" vgrow="SOMETIMES" />
               </rowConstraints>
                <children>
                   <Label text="ID">
@@ -159,6 +160,19 @@
                         <Insets left="15.0" />
                      </GridPane.margin>
                   </Label>
+                  <Label text="Company" GridPane.rowIndex="7">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                     <GridPane.margin>
+                        <Insets left="15.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <TextArea GridPane.columnIndex="1" GridPane.rowIndex="7">
+                     <GridPane.margin>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </GridPane.margin>
+                  </TextArea>
                </children>
                <VBox.margin>
                   <Insets bottom="5.0" top="15.0" />

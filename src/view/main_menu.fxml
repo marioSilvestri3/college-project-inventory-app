@@ -28,13 +28,13 @@
          <children>
             <Label alignment="CENTER" contentDisplay="CENTER" text="Inventory Management System" textAlignment="CENTER" GridPane.halignment="CENTER">
                <font>
-                  <Font size="18.0" />
+                  <Font name="System Bold" size="18.0" />
                </font>
                <padding>
                   <Insets top="5.0" />
                </padding>
             </Label>
-            <Button fx:id="main_exit" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#exit_application" text="Exit" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.halignment="RIGHT">
+            <Button fx:id="main_exit" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#main_exit" text="Exit" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.halignment="RIGHT">
                <GridPane.margin>
                   <Insets right="20.0" />
                </GridPane.margin>
@@ -81,9 +81,9 @@
                   </TableView>
                   <ButtonBar prefHeight="45.0" prefWidth="389.0">
                     <buttons>
-                      <Button alignment="CENTER" mnemonicParsing="false" text="Add" />
-                        <Button alignment="CENTER" layoutX="329.0" layoutY="18.0" mnemonicParsing="false" text="Modify" />
-                        <Button alignment="CENTER" layoutX="329.0" layoutY="18.0" mnemonicParsing="false" text="Delete" />
+                      <Button fx:id="main_add_part" alignment="CENTER" mnemonicParsing="false" onAction="#main_add_part" text="Add" />
+                        <Button fx:id="main_mod_part" alignment="CENTER" layoutX="329.0" layoutY="18.0" mnemonicParsing="false" onAction="#main_modify_part" text="Modify" />
+                        <Button fx:id="main_delete_part" alignment="CENTER" layoutX="329.0" layoutY="18.0" mnemonicParsing="false" onAction="#main_delete_part" text="Delete" />
                     </buttons>
                      <VBox.margin>
                         <Insets right="5.0" />
@@ -136,9 +136,9 @@
                   </TableView>
                   <ButtonBar prefHeight="45.0" prefWidth="389.0">
                      <buttons>
-                        <Button alignment="CENTER" mnemonicParsing="false" text="Add" />
-                        <Button alignment="CENTER" layoutX="329.0" layoutY="18.0" mnemonicParsing="false" text="Modify" />
-                        <Button alignment="CENTER" layoutX="329.0" layoutY="18.0" mnemonicParsing="false" text="Delete" />
+                        <Button fx:id="main_add_product" alignment="CENTER" mnemonicParsing="false" onAction="#main_add_product" text="Add" />
+                        <Button fx:id="main_modify_product" alignment="CENTER" layoutX="329.0" layoutY="18.0" mnemonicParsing="false" onAction="#main_modify_product" text="Modify" />
+                        <Button fx:id="main_delete_product" alignment="CENTER" layoutX="329.0" layoutY="18.0" mnemonicParsing="false" onAction="#main_delete_product" text="Delete" />
                      </buttons>
                      <VBox.margin>
                         <Insets right="5.0" />
