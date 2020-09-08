@@ -1,5 +1,10 @@
 package model;
 
+/**
+ * Supplied Part class.
+ * @author Mario Silvestri III
+ */
+
 public abstract class Part {
     private int id;
     private String name;
@@ -20,7 +25,6 @@ public abstract class Part {
     public int getId() {
         return id;
     }
-
     public void setId(int id) {
         this.id = id;
     }
@@ -28,7 +32,6 @@ public abstract class Part {
     public String getName() {
         return name;
     }
-
     public void setName(String name) {
         this.name = name;
     }
@@ -36,7 +39,6 @@ public abstract class Part {
     public double getPrice() {
         return price;
     }
-
     public void setPrice(double price) {
         this.price = price;
     }
@@ -44,7 +46,6 @@ public abstract class Part {
     public int getStock() {
         return stock;
     }
-
     public void setStock(int stock) {
         this.stock = stock;
     }
@@ -52,7 +53,6 @@ public abstract class Part {
     public int getMin() {
         return min;
     }
-
     public void setMin(int min) {
         this.min = min;
     }
@@ -60,9 +60,7 @@ public abstract class Part {
     public int getMax() {
         return max;
     }
-
     public void setMax(int max) {
         this.max = max;
     }
 }
-

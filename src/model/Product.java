@@ -27,7 +27,6 @@ public class Product {
     public void addPart(Part part) {
         parts.add(part);
     }
-
     public void deletePart(Part part) {
         parts.remove(part);
     }
@@ -35,7 +34,6 @@ public class Product {
     public int getId() {
         return id;
     }
-
     public void setId(int id) {
         this.id = id;
     }
@@ -43,7 +41,6 @@ public class Product {
     public String getName() {
         return name;
     }
-
     public void setName(String name) {
         this.name = name;
     }
@@ -51,7 +48,6 @@ public class Product {
     public double getPrice() {
         return price;
     }
-
     public void setPrice(double price) {
         this.price = price;
     }
@@ -59,7 +55,6 @@ public class Product {
     public int getStock() {
         return stock;
     }
-
     public void setStock(int stock) {
         this.stock = stock;
     }
@@ -67,7 +62,6 @@ public class Product {
     public int getMin() {
         return min;
     }
-
     public void setMin(int min) {
         this.min = min;
     }
@@ -75,7 +69,6 @@ public class Product {
     public int getMax() {
         return max;
     }
-
     public void setMax(int max) {
         this.max = max;
     }

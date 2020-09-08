@@ -1,0 +1,14 @@
+no search button, just text field
+
+javadoc (intellij) see chapter 2.1
+
+
+1) Finish GUIs
+
+2) Add and modify parts/products buttons will popup the screen and cancel will remove
+
+3) Add part will put info into the table
+
+Make Appt checkin. Wed 2nd, Sun, Tue
+
+4)
